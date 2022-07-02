@@ -7,6 +7,9 @@ using ZivverDeskTopUI.ViewModels;
 
 namespace ZivverDeskTopUI
 {
+    /// <summary>
+    /// Start up Configurations 
+    /// </summary>
     public class Bootstrapper : BootstrapperBase
     {
         private SimpleContainer _container = new SimpleContainer();
