@@ -131,5 +131,15 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZivverServiceProvider\ZivverServiceProvider.csproj">
+      <Project>{411366b5-4199-491c-b7aa-99c7ae825ad7}</Project>
+      <Name>ZivverServiceProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZivverSharedModel\ZivverSharedModel.csproj">
+      <Project>{eec4100d-546f-4c79-91fa-00f918bd6d81}</Project>
+      <Name>ZivverSharedModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

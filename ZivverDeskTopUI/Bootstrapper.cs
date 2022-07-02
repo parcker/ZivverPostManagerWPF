@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using ZivverDeskTopUI.ViewModels;
+using ZivverServiceProvider.JsonPostService;
 
 namespace ZivverDeskTopUI
 {
@@ -22,8 +23,10 @@ namespace ZivverDeskTopUI
             _container.Instance(_container);
             _container
                 .Singleton<IWindowManager, WindowManager>()
-                .Singleton<IEventAggregator, EventAggregator>()
-                ;
+                .Singleton<IEventAggregator, EventAggregator>();
+
+            _container.PerRequest<IJsonPlaceHolderService, JsonPlaceHolderService>();
+                
             GetType().Assembly.GetTypes()
                 .Where(type => type.IsClass)
                 .Where(type => type.Name.EndsWith("ViewModel"))

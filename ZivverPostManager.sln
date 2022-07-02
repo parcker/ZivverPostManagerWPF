@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZivverDeskTopUI", "ZivverDeskTopUI\ZivverDeskTopUI.csproj", "{FECEE08F-325E-48A9-AE45-6245FFF45CEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZivverServiceProvider", "ZivverServiceProvider\ZivverServiceProvider.csproj", "{411366B5-4199-491C-B7AA-99C7AE825AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZivverSharedModel", "ZivverSharedModel\ZivverSharedModel.csproj", "{EEC4100D-546F-4C79-91FA-00F918BD6D81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FECEE08F-325E-48A9-AE45-6245FFF45CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECEE08F-325E-48A9-AE45-6245FFF45CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECEE08F-325E-48A9-AE45-6245FFF45CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411366B5-4199-491C-B7AA-99C7AE825AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411366B5-4199-491C-B7AA-99C7AE825AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411366B5-4199-491C-B7AA-99C7AE825AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411366B5-4199-491C-B7AA-99C7AE825AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC4100D-546F-4C79-91FA-00F918BD6D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC4100D-546F-4C79-91FA-00F918BD6D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC4100D-546F-4C79-91FA-00F918BD6D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC4100D-546F-4C79-91FA-00F918BD6D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
